@@ -1,8 +1,8 @@
 import sys
 from optparse import OptionParser
 
-sys.path.append('./')
-
+sys.path.append('/home/chaojie/github/tensorflow-yolo/')
+#sys.path.insert(0, '/home/chaojie/github/tensorflow-yolo/yolo/')
 import yolo
 from yolo.utils.process_config import process_config
 
