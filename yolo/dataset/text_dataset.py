@@ -7,14 +7,14 @@ import math
 import random
 import cv2
 import numpy as np
-from queue import Queue 
+from Queue import Queue 
 from threading import Thread
 
-from yolo.dataset.dataset import DataSet 
+from yolo.dataset.dataset import DataSet
 
 class TextDataSet(DataSet):
   """TextDataSet
-  process text input file dataset 
+  process text input file dataset
   text file format:
     image_path xmin1 ymin1 xmax1 ymax1 class1 xmin2 ymin2 xmax2 ymax2 class2
   """
